@@ -1,1 +1,323 @@
+* {
+    box-sizing: border-box;
+}
 
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: Inika-Regular;
+    src: url(/assets/fonts/Inika-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inter-Regular ;
+    src: url(/assets/fonts/Inter-Regular.ttf)
+}
+@font-face {
+    font-family: Inter-Bold;
+    src: url(./assets/fonts/Inter-Bold.ttf);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+}
+
+header {
+    background: #EDF2EC;
+    height: 134px;
+    left: 0px;
+    top: 0px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    top: 42px;
+    bottom: 42px;
+    right: 109px;
+    left: 879px;
+}
+
+.navigation {
+    list-style-type: none;
+    margin-right: 50px;
+    font-family: Inika-Regular;
+}
+
+.logo {
+    position: relative;
+    top: 42px;
+    bottom: 42px;
+    left: 111px
+}
+
+body {
+    background-color:#EDF2EC;
+}
+ .welcome {
+    columns: 2;
+    height: 532px;
+    top: 134px;
+ }
+ 
+ .title-welcome {
+    font-family: Inter-Bold;
+    font-size: 50px; 
+    color: #717171;
+ }
+
+.letter {
+    color: #499A18;
+}
+
+.text-welcome {
+    font-family: Inika-Regular;
+    font-size: 35px;
+    color: #636060;
+}
+
+.link-welcome {
+    font-family: Inter-Regular;
+    text-decoration: none;
+    border: 1px solid #E06733;
+    padding: 12px 27px;
+    border-radius: 10px;
+    color: black;
+}
+
+a:hover {
+    transition: 1s ease-in-out;
+    color:#E06733;
+    background: #717171;
+}
+
+.About {
+    background:#FFFFFF;
+    columns: 2;
+    height: 666px;
+    top: 666px;
+    background-blend-mode:screen;
+}
+
+.title-about {
+    font-family: Inika-Regular;
+    font-size: 50px;
+}
+
+.word-about {
+    color: #499A18;
+}
+
+.words-about {
+    color: #E06733;
+}
+
+.text-about {
+    font-family: Inter-Regular;
+    font-size: 30px;
+    color: #636060;
+}
+
+.flower {
+    margin-left: 100px;
+}
+
+.service {
+    height: 1300px;
+    left: 0px;
+    top: 1332px;
+}
+
+.title-service {
+    color: #499A18;
+    font-family: Inika-Regular;
+    font-size: 50px;
+}
+
+.link-service {
+    font-family: Inter-Regular;
+    text-decoration: none;
+    border: 1px solid #E06733;
+    padding: 12px 27px;
+    border-radius: 10px;
+    color: #E06733;
+    display: inline;
+    position: relative;
+    left: 50%;
+    bottom: 100px;
+    margin-right: 38px;
+}
+
+.title-photo {
+    font-family: Inter-Bold;
+    color:#E06733;
+    font-size: 20px;
+}
+
+.text-photo {
+    font-family: Inter-Regular;
+    color: #717171;
+    font-size: 20px;
+}
+
+.image-service {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.prices {
+    background:#FFFFFF;
+    height: 560px;
+}
+
+.title-prices {
+    position: relative;
+    color: #000000;
+    font-family: Inter-Bold;
+    font-size: 50px;
+    top: 40px;
+    left: 109px;
+}
+
+.text-prices {
+    position: relative;
+    color:#000000;
+    font-family: Inter-Bold;
+    font-size: 50px;
+    text-align: end;
+    bottom: 80px;
+    right: 109px;
+}
+
+.word-prices {
+    color: #499A18;
+}
+
+.select-price {
+    padding: 5px 50px;
+    font-family: Inter-Bold;
+    font-size: 20px;
+    background:#EDF2EC;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    left: 150px;
+    top: 347.01px;
+    margin: 10px 20px;
+}
+.select-prices {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid #717171;
+    width: 300px;
+}
+
+.link-price {
+    text-decoration: none;
+    border: 2px solid #E06733;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color:#E06733;
+    position: relative;
+    left: 950px;
+    bottom: 85%;
+}
+
+.photo-price {
+    position: relative;
+    left: 800px;
+    bottom: 30%;
+}
+
+.contacts {
+    height: 550px;
+    left: 0px;
+    top: 3190px;
+    background:#EDF2EC;
+}
+
+.title-contacts {
+    font-family: Inika-Bold;
+    font-size: 50px;
+    color: #499A18;
+    text-align: center;
+}
+
+.contact-woman {
+    position: relative;
+    left: 109px;
+}
+
+.select-city {
+    position: relative;
+    width: 350px;
+    bottom: 380px;
+    left: 350px;
+    background: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    height: 50px;
+}
+
+.price-city {
+    font-family: Inter-Regular;
+    font-size: 20px;
+    color: #717171;
+}
+
+footer {
+    background:#FFFFFF;
+    height: 550px;
+}
+
+.title-footer {
+    font-family: Inter-Regular;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    padding: 40px 0;
+}
+
+.icons-1 {
+    display: flex;
+    flex-direction: row;
+
+}
+.catalog-footer {
+    list-style-type: none;
+}
+.list-footer {
+    margin-right: 20px;
+    float: right;
+    position: relative;
+    bottom: 150px;
+}
+
+.githubs {
+    text-decoration: none;
+    color: #000000;
+}
+
+.years {
+    font-family: Inter-Regular;
+    font-size: 20px;
+    color:#000000;
+}
+
+.icons-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: space-between;
+    position: relative;
+    bottom: 210px;
+}
